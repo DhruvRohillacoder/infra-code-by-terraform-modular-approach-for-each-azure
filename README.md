@@ -1,0 +1,1 @@
+# infra-code-by-terraform-modular-approach-for-each-azure
