@@ -1,3 +1,3 @@
-module "RG" {
-  source = "../../modules/azurerm_resource_group"
-}
+# module "RG" {
+#   source = "../../modules/azurerm_resource_group"
+# }
