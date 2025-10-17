@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "dd_rg" {
+resource "azurerm_resource_group" "liveRG" {
   for_each   = var.resource_groups
   name       = each.value.name
   location   = each.value.location

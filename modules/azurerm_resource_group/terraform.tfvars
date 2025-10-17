@@ -18,13 +18,4 @@ resource_groups = {  #! variable
       owner       = "rg2 ne banaya"
     }
   }
-  rg3 = {
-
-    name     = "rg3"
-    location = "Westus"
-    # managed_by = "rg3 ne banaya"
-    # tags = {
-    #   environment = "prod"
-    #   owner       = "rg3 ne banaya"
-    # }
-} }
+}
