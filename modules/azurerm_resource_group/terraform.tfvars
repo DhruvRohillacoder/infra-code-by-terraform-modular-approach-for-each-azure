@@ -19,3 +19,4 @@ resource_groups = {  #! variable
     }
   }
 }
+
