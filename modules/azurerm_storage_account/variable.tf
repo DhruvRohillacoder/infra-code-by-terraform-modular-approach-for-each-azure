@@ -1,4 +1,10 @@
 variable "storage_accounts" {
+  # network_rules {
+  #   default_action             = each.value.network_rules.default_action
+  #   bypass                     = each.value.network_rules.by
+  #   ip_rules                   = each.value.ip_rules
+  #   virtual_network_subnet_ids = each.value.virtual_network_subnet_ids
+  # }
   description = "Map of Azure Storage Accounts with all 27 top-level arguments (all optional)"
   type = map(object({
     name                               = string
